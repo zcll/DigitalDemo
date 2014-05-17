@@ -10,4 +10,13 @@
 
 @interface ViewController : UIViewController
 
+@property (nonatomic, retain) IBOutlet UILabel *resultlabel;
+
+@property (nonatomic, retain) NSString *digitStr;
+@property (nonatomic, retain) NSMutableString *currentNumMutableStr;
+
+- (IBAction)numberButton:(id)sender;
+- (IBAction)cancleButton:(id)sender;
+- (IBAction)clearButton:(id)sender;
+
 @end

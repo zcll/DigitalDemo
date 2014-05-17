@@ -21,6 +21,8 @@
 		0280D3A81927CA05001E10F1 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0280D38A1927CA05001E10F1 /* UIKit.framework */; };
 		0280D3B01927CA05001E10F1 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 0280D3AE1927CA05001E10F1 /* InfoPlist.strings */; };
 		0280D3B21927CA05001E10F1 /* DigitalDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 0280D3B11927CA05001E10F1 /* DigitalDemoTests.m */; };
+		0280D3BE1927CBD5001E10F1 /* quan.png in Resources */ = {isa = PBXBuildFile; fileRef = 0280D3BC1927CBD5001E10F1 /* quan.png */; };
+		0280D3BF1927CBD5001E10F1 /* Quartz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 0280D3BD1927CBD5001E10F1 /* Quartz.ttf */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +55,9 @@
 		0280D3AD1927CA05001E10F1 /* DigitalDemoTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "DigitalDemoTests-Info.plist"; sourceTree = "<group>"; };
 		0280D3AF1927CA05001E10F1 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		0280D3B11927CA05001E10F1 /* DigitalDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DigitalDemoTests.m; sourceTree = "<group>"; };
+		0280D3BC1927CBD5001E10F1 /* quan.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = quan.png; sourceTree = "<group>"; };
+		0280D3BD1927CBD5001E10F1 /* Quartz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = Quartz.ttf; sourceTree = "<group>"; };
+		02C577191927D04400C0F936 /* UtilsMacro.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = UtilsMacro.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +122,7 @@
 				0280D3981927CA05001E10F1 /* Main.storyboard */,
 				0280D39B1927CA05001E10F1 /* ViewController.h */,
 				0280D39C1927CA05001E10F1 /* ViewController.m */,
+				02C577191927D04400C0F936 /* UtilsMacro.h */,
 				0280D39E1927CA05001E10F1 /* Images.xcassets */,
 				0280D38D1927CA05001E10F1 /* Supporting Files */,
 			);
@@ -126,6 +132,7 @@
 		0280D38D1927CA05001E10F1 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				0280D3BB1927CBD5001E10F1 /* Resources */,
 				0280D38E1927CA05001E10F1 /* DigitalDemo-Info.plist */,
 				0280D38F1927CA05001E10F1 /* InfoPlist.strings */,
 				0280D3921927CA05001E10F1 /* main.m */,
@@ -150,6 +157,15 @@
 				0280D3AE1927CA05001E10F1 /* InfoPlist.strings */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		0280D3BB1927CBD5001E10F1 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0280D3BC1927CBD5001E10F1 /* quan.png */,
+				0280D3BD1927CBD5001E10F1 /* Quartz.ttf */,
+			);
+			path = Resources;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -228,7 +244,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0280D3BE1927CBD5001E10F1 /* quan.png in Resources */,
 				0280D39F1927CA05001E10F1 /* Images.xcassets in Resources */,
+				0280D3BF1927CBD5001E10F1 /* Quartz.ttf in Resources */,
 				0280D3911927CA05001E10F1 /* InfoPlist.strings in Resources */,
 				0280D39A1927CA05001E10F1 /* Main.storyboard in Resources */,
 			);
@@ -456,6 +474,7 @@
 				0280D3B71927CA05001E10F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		0280D3B81927CA05001E10F1 /* Build configuration list for PBXNativeTarget "DigitalDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -464,6 +483,7 @@
 				0280D3BA1927CA05001E10F1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
